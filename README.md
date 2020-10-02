@@ -20,8 +20,7 @@ dependencies {
 ```
 3. Pass your command as an argument to the shell function and initialize its' return value to response
 ```kotlin
-val response = async { shell("uptime") }
-Toast.makeText(this@MainActivity, response.await(), Toast.LENGTH_LONG).show()
+val response = shell("uptime")
 ```
 ## License
 ```
