@@ -1,0 +1,3 @@
+include ':easyshells'
+include ':app'
+rootProject.name = "Easy Shells"
