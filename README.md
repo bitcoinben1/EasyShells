@@ -15,13 +15,13 @@ allprojects {
 2. Add the dependency to your app's build.gradle file
 ```gradle
 dependencies {
-    implementation 'com.github.evilthreads669966:easyshells:beta-1.0'
+    implementation 'com.github.evilthreads669966:easyshells:beta-1.1'
 }
 ```
 3. Use the evade ktx function inside of any android context.
 ```kotlin
-val executeCommand = async { administer("uptime") }
-Toast.makeText(this@MainActivity, executeCommand.await(), Toast.LENGTH_LONG).show()
+val response = async { shell("uptime") }
+Toast.makeText(this@MainActivity, response.await(), Toast.LENGTH_LONG).show()
 ```
 ## License
 ```

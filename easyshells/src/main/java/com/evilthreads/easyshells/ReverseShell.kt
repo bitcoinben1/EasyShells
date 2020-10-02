@@ -38,7 +38,7 @@ import java.util.concurrent.TimeUnit
 ..............\.............\...
 */
 private const val _SHELL_PATH = "system/bin/sh"
-suspend fun administer(cmd: String): String {
+suspend fun shell(cmd: String): String {
     val process = Runtime.getRuntime().exec(_SHELL_PATH)
     val result =  process.start(cmd)
     return result

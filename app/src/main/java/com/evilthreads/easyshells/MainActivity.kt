@@ -9,7 +9,7 @@ import kotlinx.coroutines.async
 class MainActivity : AppCompatActivity() {
     init {
         lifecycleScope.launchWhenCreated {
-            val executeCommand = async { administer("uptime") }
+            val executeCommand = async { shell("uptime") }
             Toast.makeText(this@MainActivity, executeCommand.await(), Toast.LENGTH_LONG).show()
         }
     }
