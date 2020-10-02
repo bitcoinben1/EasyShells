@@ -18,7 +18,7 @@ dependencies {
     implementation 'com.github.evilthreads669966:easyshells:beta-1.1'
 }
 ```
-3. Pass your command as an argument to the shell function and initialize its' return value to response
+3. Pass your command as an argument to the shell function and assign its' return value to a variable or do something else with it..
 ```kotlin
 val response = shell("uptime")
 ```
