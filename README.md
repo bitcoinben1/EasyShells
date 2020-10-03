@@ -1,6 +1,6 @@
 [![Release](https://jitpack.io/v/evilthreads669966/easyshells.svg)](https://jitpack.io/#evilthreads669966/easyshells)&nbsp;&nbsp;[![API](https://img.shields.io/badge/API-26%2B-brightgreen.svg?style=plastic)](https://android-arsenal.com/api?level=26)
 # Easy Shells
-### A simple shell with responses library for Android
+### A simple shell for executing linux commands with responses library for Android
 #### I had this written awhile ago and didn't want to throw it away. I'll probably work on turning this into more of a reverse shell library as time goes on with networking features.
 ### User Instructions
 1. Add the maven repository to your project's build.gradle file
