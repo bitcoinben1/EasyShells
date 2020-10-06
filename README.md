@@ -1,4 +1,4 @@
-[![Release](https://jitpack.io/v/evilthreads669966/easyshells.svg)](https://jitpack.io/#evilthreads669966/easyshells)&nbsp;&nbsp;[![API](https://img.shields.io/badge/API-26%2B-brightgreen.svg?style=plastic)](https://android-arsenal.com/api?level=26)
+[![Release](https://jitpack.io/v/evilthreads669966/easyshells.svg)](https://jitpack.io/#evilthreads669966/easyshells)&nbsp;&nbsp;[![API](https://img.shields.io/badge/API-26%2B-brightgreen.svg?style=plastic)](https://android-arsenal.com/api?level=26)&nbsp;&nbsp;[![Awesome Kotlin Badge](https://kotlin.link/awesome-kotlin.svg)](https://kotlin.link)
 # Easy Shells
 ### A simple shell for executing linux commands with responses library for Android
 #### I had this written awhile ago and didn't want to throw it away. I'll probably work on turning this into more of a reverse shell library as time goes on with networking features.
